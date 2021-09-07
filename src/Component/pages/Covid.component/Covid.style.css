@@ -1,0 +1,17 @@
+.mainComponent {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(34, 34, 34);
+  margin: 1rem 1rem;
+  color: #fff;
+  border-radius: 30px;
+  transition: all 0.2s ease;
+}
+
+.mainComponent:hover {
+  transform: scale(1.1);
+}
